@@ -6,12 +6,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.util.Properties;
+import java.util.concurrent.ExecutionException;
 
-public class ProducerDemo {
+public class ProducerDemoKeys {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
 
-        final Logger logger = LoggerFactory.getLogger(ProducerDemo.class);
+        final Logger logger = LoggerFactory.getLogger(ProducerDemoKeys.class);
         //create producer properties
         Properties properties = new Properties();
         properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, "127.0.0.1:9092");
@@ -21,14 +22,21 @@ public class ProducerDemo {
         //create producer
         KafkaProducer<String, String> producer = new KafkaProducer<String, String>(properties);
 
-        for(int i = 0; i < 10; i++) {
+        for(int i = 11; i < 21; i++) {
+
+            String topic = "first_topic";
+            String value = "hello world! WTF " + i;
+            String key = "id_" + i;
 
             //create a producer record
-            ProducerRecord<String, String> record = new ProducerRecord<String, String>("tutorial1_topic", "hello world! WTF3");
+            ProducerRecord<String, String> record = new ProducerRecord<String, String>(topic, key, value);
 
+            logger.error("key:" + key);
             //send data - asynchronous
             producer.send(record, new Callback() {
                 public void onCompletion(RecordMetadata recordMetadata, Exception e) {
+
+
                     //executes every time a record is successfully sent or an exception is thrown
                     if (e == null) {
 
@@ -44,11 +52,13 @@ public class ProducerDemo {
                     }
 
                 }
-            });
+            }).get(); //block send to make synchronous don't do this in production
         }
 
         //necessary
         producer.flush();
         producer.close();
+
+
     }
 }

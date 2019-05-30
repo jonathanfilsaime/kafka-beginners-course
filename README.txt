@@ -132,3 +132,5 @@ Kafka commands
 
     - shift the offset backwards for consumer group
         kafka-consumer-groups.sh --bootstrap-server localhost:9092 --group my-first-application --reset-offsets --shift-by -2 --execute --topic first_topic
+
+
