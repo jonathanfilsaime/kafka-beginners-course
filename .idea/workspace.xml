@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="913063a5-1a81-4afc-b5fc-d7db945cc08c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoAssignAndSeek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoGroups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoWithThreads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemoKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoGroups.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/opencortex/kafka/tutorial1/ProducerDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/opencortex/kafka/tutorial1/ProducerDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemoKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemoKeys.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,14 +61,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2162" />
-          <entry key="txt" value="5" />
+          <entry key="java" value="2852" />
+          <entry key="txt" value="3552" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2162" />
-          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="JAVA" value="2852" />
+          <entry key="PLAIN_TEXT" value="3552" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -104,8 +97,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1020">
-              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+            <state relative-caret-position="385">
+              <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
             </state>
           </provider>
         </entry>
@@ -122,8 +115,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="476">
+              <caret line="28" column="92" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemoKeys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="782">
+              <caret line="52" column="76" lean-forward="true" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -174,8 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoGroups.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="37" />
+            <state relative-caret-position="935">
+              <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -203,12 +196,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemoKeys.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoGroups.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoWithThreads.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoAssignAndSeek.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemoKeys.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoGroups.java" />
         <option value="$PROJECT_DIR$/README.txt" />
       </list>
     </option>
@@ -284,7 +277,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559234884228" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559316394944" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -404,12 +397,20 @@
       <workItem from="1559224752283" duration="1371000" />
       <workItem from="1559226345712" duration="341000" />
       <workItem from="1559226992008" duration="681000" />
-      <workItem from="1559229162682" duration="5672000" />
+      <workItem from="1559229162682" duration="14467000" />
     </task>
+    <task id="LOCAL-00001" summary="consumers and producers in java">
+      <created>1559234930905</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559234930905</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8065000" />
+    <option name="totallyTimeSpent" value="16860000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -451,6 +452,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="consumers and producers in java" />
+    <option name="LAST_COMMIT_MESSAGE" value="consumers and producers in java" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -466,27 +471,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoWithThreads.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="493">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoAssignAndSeek.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemoKeys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="782">
+          <caret line="52" column="76" lean-forward="true" selection-start-line="52" selection-start-column="76" selection-end-line="52" selection-end-column="76" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoWithThreads.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ProducerDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="476">
+          <caret line="28" column="92" selection-start-line="28" selection-start-column="92" selection-end-line="28" selection-end-column="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -503,22 +515,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoGroups.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/opencortex/kafka/tutorial1/ConsumerDemoAssignAndSeek.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        <state relative-caret-position="935">
+          <caret line="65" column="52" selection-start-line="65" selection-start-column="52" selection-end-line="65" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
+        <state relative-caret-position="385">
+          <caret line="23" column="113" selection-start-line="23" selection-start-column="113" selection-end-line="23" selection-end-column="113" />
         </state>
       </provider>
     </entry>
